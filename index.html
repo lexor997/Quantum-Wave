@@ -1,129 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Quantum Wave – Leaders in Quantum Technology Solutions in New Zealand">
-    <title>Quantum Wave | Quantum Tech Solutions</title>
-    
-    <!-- SEO Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": "https://quantumwave.co.nz",
-      "name": "Quantum Wave",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+64-XX-XXX-XXXX",
-        "contactType": "Customer Support",
-        "areaServed": "NZ"
-      }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quantum Wave | IT Networking, Cybersecurity & Managed Services in New Zealand">
+  <title>Quantum Wave | Secure. Scalable. Smart.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    </script>
-
-    <!-- Google Fonts & Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f5f7fb;
-        color: #333;
-        line-height: 1.6;
-      }
-      header {
-        background: linear-gradient(135deg, #4a90e2, #2d6abf);
-        padding: 40px 20px;
-        color: white;
-        text-align: center;
-      }
-      nav {
-        margin: 10px auto;
-      }
-      nav a {
-        margin: 0 15px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .btn-cta {
-        display: inline-block;
-        background: #ff7f50;
-        color: white;
-        padding: 12px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-top: 15px;
-      }
-      main {
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-      }
-      section {
-        background: white;
-        border-radius: 8px;
-        padding: 20px;
-        margin-bottom: 20px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      }
-      footer {
-        text-align: center;
-        padding: 15px;
-        background-color: #eee;
-        color: #555;
-        font-size: 14px;
-      }
-      @media(max-width: 600px){
-        nav a { display: block; margin: 5px 0;}
-      }
-    </style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #0e1a2b;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #005c97, #363795);
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3.5rem;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #d0d0d0;
+      margin-bottom: 25px;
+    }
+    .btn-primary {
+      padding: 14px 28px;
+      background-color: #00d1ff;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: all 0.3s ease-in-out;
+    }
+    .btn-primary:hover {
+      background-color: #00a3cc;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      color: #00d1ff;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    section p, li {
+      font-size: 1.1rem;
+      color: #ddd;
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: '\2022';
+      color: #00d1ff;
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .feature-box {
+      background-color: #1a2b3c;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,209,255,0.1);
+    }
+    footer {
+      background-color: #08131f;
+      text-align: center;
+      padding: 30px 20px;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-
-<header>
+  <header>
     <h1>Quantum Wave</h1>
-    <p>New Zealand’s Leader in Quantum Technology Solutions</p>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <a href="#contact" class="btn-cta">Book a Consultation</a>
-</header>
+    <p>Secure. Scalable. Smart. Your Experts in IT Networking, Firewalls, Office 365 & Managed Services</p>
+    <a href="#contact" class="btn-primary">Talk to Our Team</a>
+  </header>
 
-<main>
-    <section id="about">
-        <h2>About Quantum Wave</h2>
-        <p>Quantum Wave provides cutting-edge quantum technology solutions for businesses and researchers across New Zealand. Our expertise spans quantum computing, cryptography, and next-gen tech consulting.</p>
-    </section>
+  <section id="about">
+    <h2>Who We Are</h2>
+    <p>Quantum Wave is New Zealand’s go-to partner for robust IT infrastructure. We design, deploy and manage secure networks, enterprise firewalls, and Office 365 environments – backed by responsive, proactive managed services.</p>
+  </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Quantum Computing Solutions & Consulting</li>
-            <li>Quantum Research & Development</li>
-            <li>Quantum Cryptography & Security Assessments</li>
-        </ul>
-    </section>
+  <section id="services">
+    <h2>Our Core Services</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Network Design & Support</h3>
+        <p>We build rock-solid wired and wireless networks for businesses of all sizes, optimised for performance and uptime.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Firewall & Security</h3>
+        <p>Advanced threat protection and perimeter security with solutions from Fortinet, Cisco, and more.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Microsoft 365 & Cloud</h3>
+        <p>Seamless setup, migration, and management of Office 365, SharePoint, Exchange Online and Teams.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Managed IT Services</h3>
+        <p>Let us manage your infrastructure, endpoints and software with 24/7 monitoring and expert support.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Get in touch to discuss how Quantum Wave can help your business embrace the future.</p>
-        <p><strong>Email:</strong> <a href="mailto:info@quantumwave.co.nz">info@quantumwave.co.nz</a><br>
-        <strong>Phone:</strong> +64-XX-XXX-XXXX</p>
-    </section>
-</main>
+  <section id="contact">
+    <h2>Let's Talk</h2>
+    <p>We’re here to take the stress out of IT. Contact us now to learn how Quantum Wave can elevate your business.</p>
+    <p><strong>Email:</strong> <a href="mailto:info@quantumwave.co.nz" style="color: #00d1ff;">info@quantumwave.co.nz</a></p>
+    <p><strong>Phone:</strong> +64-XX-XXX-XXXX</p>
+  </section>
 
-<footer>
+  <footer>
     &copy; 2025 Quantum Wave. All Rights Reserved.
-</footer>
-
+  </footer>
 </body>
 </html>
-
-</html>
-
