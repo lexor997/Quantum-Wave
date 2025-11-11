@@ -1,0 +1,21 @@
+:root { --accent:#2563eb; }
+body{font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;margin:0;color:#0f172a}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #e6e7eb}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600}
+.brand .logo{width:36px;height:36px;border-radius:12px}
+.links{display:flex;gap:18px;align-items:center}
+.links a{color:#0f172a;text-decoration:none;font-weight:500;opacity:.85}
+.links a:hover{opacity:1}
+.btn{background:var(--accent);color:white;padding:10px 16px;border-radius:10px;text-decoration:none;display:inline-block}
+.btn.outline{background:transparent;color:#0f172a;border:1px solid #d1d5db}
+.hero{padding:80px 0;background:#fff}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:32px}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr}}
+.pill{display:inline-block;background:#eaf1ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.hero h1{font-size:42px;line-height:1.1;margin:16px 0}
+.hero p{color:#475569;max-width:640px}
+.actions{display:flex;gap:12px;margin-top:16px}
+.hero-art{display:flex;justify-content:center;align-items:center}
+.hero-art img{width:220px;height:220px}
