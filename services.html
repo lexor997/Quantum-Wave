@@ -1,94 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the specialized IT services offered by Quantum Wave Technologies Ltd, including cybersecurity, cloud solutions, and custom software development to boost your business's efficiency and security.">
-    <title>Our Services - Quantum Wave Technologies Ltd</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .parallax {
-            background-image: url('background.jpg');
-            height: 300px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .section {
-            padding: 50px 80px;
-            text-align: center;
-        }
-        .sticky {
-            position: sticky;
-            top: 0;
-            background-color: #000;
-            padding: 10px 0;
-            z-index: 1000;
-        }
-        footer {
-            background-color: #007BFF;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Quantum Wave's specialist IT services including cybersecurity, cloud, and managed support.">
+  <title>Services - Quantum Wave</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="sticky">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Quantum Wave Technologies Ltd</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="about.html">About</a>
-                    <a class="nav-link active" href="services.html">Services</a>
-                    <a class="nav-link" href="privacy.html">Privacy Policy</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<div class="parallax"></div>
-
-<div class="section bg-white">
-    <h1>Our Services</h1>
-    <p>At Quantum Wave Technologies Ltd, we offer a range of specialized IT services designed to enhance the operational capabilities and security of your business.</p>
-    <div class="row">
-        <div class="col-md-4">
-            <i class="fas fa-lock fa-3x"></i>
-            <h3>Cybersecurity</h3>
-            <p>Protect your critical data with our comprehensive cybersecurity solutions.</p>
-        </div>
-        <div class="col-md-4">
-            <i class="fas fa-cloud fa-3x"></i>
-            <h3>Cloud Solutions</h3>
-            <p>Enhance your infrastructure with our scalable and secure cloud services.</p>
-        </div>
-        <div class="col-md-4">
-            <i class="fas fa-cogs fa-3x"></i>
-            <h3>Custom Software Development</h3>
-            <p>Customize software solutions tailored to meet your specific business needs.</p>
-        </div>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Quantum Wave home">
+        <div class="logo">QW</div>
+        <span>Quantum Wave</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="services.html" aria-current="page">Services</a>
+        <a href="index.html#approach">Approach</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <a class="btn" href="mailto:info@quantumwave.co.nz">Book a consult</a>
     </div>
-</div>
+  </header>
 
-<footer>
-    <p>Contact us: <a href="mailto:info@quantumwave.co.nz" class="text-white">info@quantumwave.co.nz</a> | +64 21 362 017</p>
-</footer>
+  <main id="main" role="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="pill">What we deliver</span>
+          <h1>Specialists across security, cloud, and always-on networks.</h1>
+          <p>From assessments to full rollout, we execute projects with clear milestones, documentation, and proactive support that keeps operations moving.</p>
+        </div>
+        <div class="hero-art">
+          <img src="background.jpg" alt="Technology lines">
+        </div>
+      </div>
+    </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="section">
+      <div class="container grid two">
+        <div class="card">
+          <div class="icon-circle">🛡️</div>
+          <h3>Cybersecurity</h3>
+          <p>Firewall design, zero-trust policies, secure remote access, and incident response tuned to your risk profile.</p>
+          <ul class="list">
+            <li>Security assessments and remediation roadmaps.</li>
+            <li>Identity and access management with MFA everywhere.</li>
+            <li>EDR, backup, and disaster recovery tested regularly.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon-circle">☁️</div>
+          <h3>Cloud & Microsoft 365</h3>
+          <p>Plan, migrate, and operate Microsoft 365 and Azure with governance, compliance, and automation baked in.</p>
+          <ul class="list">
+            <li>Exchange, Teams, and SharePoint migrations with minimal downtime.</li>
+            <li>Conditional access, data loss prevention, and backup strategy.</li>
+            <li>Hybrid identity and device management.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon-circle">🛰️</div>
+          <h3>Networking</h3>
+          <p>Campus and branch networks engineered for performance, visibility, and fault tolerance.</p>
+          <ul class="list">
+            <li>SD-WAN, Wi-Fi 6, segmentation, and QoS that respects your applications.</li>
+            <li>Monitoring and telemetry to catch issues before users do.</li>
+            <li>Lifecycle management and vendor coordination.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon-circle">🤝</div>
+          <h3>Managed services</h3>
+          <p>Proactive care plans with SLAs, reporting, and NZ-based engineers who know your environment.</p>
+          <ul class="list">
+            <li>Endpoint management, patching, and vulnerability reduction.</li>
+            <li>24/7 alerting with meaningful runbooks and escalation paths.</li>
+            <li>Regular service reviews and roadmap planning.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid two">
+        <div class="card highlight">
+          <h2>Delivery process</h2>
+          <ul class="list">
+            <li><strong>Discover & design:</strong> stakeholder workshops, current-state mapping, and clear scope.</li>
+            <li><strong>Implement:</strong> staged rollouts with testing, fallback, and change control.</li>
+            <li><strong>Operate:</strong> continuous monitoring, monthly reporting, and optimisation.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Ready to get started?</h3>
+          <p>Share your objectives and we’ll propose an engagement model that fits your team, timeline, and budget.</p>
+          <a class="btn" href="mailto:info@quantumwave.co.nz">Start a project</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <div class="brand small">
+        <div class="logo">QW</div>
+        <span>Quantum Wave</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+      <span>&copy; 2025 Quantum Wave. All rights reserved.</span>
+    </div>
+  </footer>
 </body>
 </html>
