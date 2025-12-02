@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore Quantum Wave's specialist IT services including cybersecurity, cloud, and managed support.">
-  <title>Services - Quantum Wave</title>
+  <meta name="description" content="Quantum Wave services: network architecture, zero-trust security, connectivity, and managed reliability for critical organisations.">
+  <title>Services | Quantum Wave</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,11 +15,12 @@
   <header class="nav">
     <div class="container nav-inner">
       <a class="brand" href="index.html" aria-label="Quantum Wave home">
-        <div class="logo">QW</div>
+        <img class="logo" src="logo.png" alt="Quantum Wave Technologies logo">
         <span>Quantum Wave</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="services.html" aria-current="page">Services</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#clients">Clients</a>
         <a href="index.html#approach">Approach</a>
         <a href="index.html#contact">Contact</a>
         <a href="about.html">About</a>
@@ -33,75 +34,114 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <span class="pill">What we deliver</span>
-          <h1>Specialists across security, cloud, and always-on networks.</h1>
-          <p>From assessments to full rollout, we execute projects with clear milestones, documentation, and proactive support that keeps operations moving.</p>
+          <span class="pill">Services</span>
+          <h1>Bespoke engineering across network, security, and operations.</h1>
+          <p>We guide, design, and operate the connective systems your organisation relies on. Every engagement is tuned to your risk, users, and uptime targets.</p>
         </div>
         <div class="hero-art">
-          <img src="background.jpg" alt="Technology lines">
+          <img src="logo.png" alt="Quantum Wave brand mark">
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="container grid two">
-        <div class="card">
-          <div class="icon-circle">🛡️</div>
-          <h3>Cybersecurity</h3>
-          <p>Firewall design, zero-trust policies, secure remote access, and incident response tuned to your risk profile.</p>
-          <ul class="list">
-            <li>Security assessments and remediation roadmaps.</li>
-            <li>Identity and access management with MFA everywhere.</li>
-            <li>EDR, backup, and disaster recovery tested regularly.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="icon-circle">☁️</div>
-          <h3>Cloud & Microsoft 365</h3>
-          <p>Plan, migrate, and operate Microsoft 365 and Azure with governance, compliance, and automation baked in.</p>
-          <ul class="list">
-            <li>Exchange, Teams, and SharePoint migrations with minimal downtime.</li>
-            <li>Conditional access, data loss prevention, and backup strategy.</li>
-            <li>Hybrid identity and device management.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="icon-circle">🛰️</div>
-          <h3>Networking</h3>
-          <p>Campus and branch networks engineered for performance, visibility, and fault tolerance.</p>
-          <ul class="list">
-            <li>SD-WAN, Wi-Fi 6, segmentation, and QoS that respects your applications.</li>
-            <li>Monitoring and telemetry to catch issues before users do.</li>
-            <li>Lifecycle management and vendor coordination.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="icon-circle">🤝</div>
-          <h3>Managed services</h3>
-          <p>Proactive care plans with SLAs, reporting, and NZ-based engineers who know your environment.</p>
-          <ul class="list">
-            <li>Endpoint management, patching, and vulnerability reduction.</li>
-            <li>24/7 alerting with meaningful runbooks and escalation paths.</li>
-            <li>Regular service reviews and roadmap planning.</li>
-          </ul>
+      <div class="container">
+        <h2>Network design & build</h2>
+        <div class="grid two">
+          <div class="card">
+            <h3>Core & campus</h3>
+            <p>High-availability architectures with dual core, resilient distribution, and QoS tuned to voice, video, and latency-sensitive apps.</p>
+            <p class="small">Deliverables: topology and IP schema, high-level and low-level designs, cutover plans.</p>
+          </div>
+          <div class="card">
+            <h3>Secure wireless</h3>
+            <p>Predictive and onsite surveys, RF tuning, and seamless roaming with identity-aware policies for staff, guests, and devices.</p>
+            <p class="small">VLAN and SSID design, captive portals, identity integration.</p>
+          </div>
+          <div class="card">
+            <h3>SD-WAN & edge</h3>
+            <p>Private links and SD-WAN overlays engineered for resilience, carrier diversity, and observability of every path.</p>
+            <p class="small">Traffic engineering, circuit delivery coordination, failover drills.</p>
+          </div>
+          <div class="card">
+            <h3>Data centre & cloud interconnect</h3>
+            <p>Secure connectivity between sites, data centres, and cloud regions with clear handoffs and documented controls.</p>
+            <p class="small">ExpressRoute/Direct Connect, VPN hubs, segmentation strategies.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="container grid two">
-        <div class="card highlight">
-          <h2>Delivery process</h2>
-          <ul class="list">
-            <li><strong>Discover & design:</strong> stakeholder workshops, current-state mapping, and clear scope.</li>
-            <li><strong>Implement:</strong> staged rollouts with testing, fallback, and change control.</li>
-            <li><strong>Operate:</strong> continuous monitoring, monthly reporting, and optimisation.</li>
-          </ul>
+      <div class="container">
+        <h2>Security & zero-trust</h2>
+        <div class="grid two">
+          <div class="card">
+            <h3>Identity-first access</h3>
+            <p>Conditional access, device trust, and privilege boundaries that adapt to user context across campus and remote work.</p>
+            <p class="small">Azure AD/Entra, MFA, device compliance, policy baselines.</p>
+          </div>
+          <div class="card">
+            <h3>Next-gen firewall & segmentation</h3>
+            <p>Layered controls with IDS/IPS, URL filtering, micro-segmentation, and traffic inspection aligned to your risk appetite.</p>
+            <p class="small">Policy design, rule clean-up, HA pairs, encrypted traffic visibility.</p>
+          </div>
+          <div class="card">
+            <h3>Secure remote access</h3>
+            <p>VPN and ZTNA designs with strong identity, posture checks, and seamless user experience across devices.</p>
+            <p class="small">Clientless options, device posture, certificate lifecycle.</p>
+          </div>
+          <div class="card">
+            <h3>Security operations enablement</h3>
+            <p>EDR, SIEM, SOAR, and incident playbooks integrated with your service desk and escalation paths.</p>
+            <p class="small">Alert routing, runbooks, tabletop exercises, response automation.</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>Ready to get started?</h3>
-          <p>Share your objectives and we’ll propose an engagement model that fits your team, timeline, and budget.</p>
-          <a class="btn" href="mailto:info@quantumwave.co.nz">Start a project</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Managed reliability</h2>
+        <div class="grid two">
+          <div class="card">
+            <h3>Observability</h3>
+            <p>Health dashboards, synthetic tests, and tuned alerts that keep noise low and signal high for operations.</p>
+            <p class="small">SLI/SLO definitions, alert hygiene, visual runbooks.</p>
+          </div>
+          <div class="card">
+            <h3>Change control</h3>
+            <p>Structured change pipelines with approvals, rollback plans, and post-change validation to keep uptime predictable.</p>
+            <p class="small">CAB guidance, maintenance windows, risk scoring.</p>
+          </div>
+          <div class="card">
+            <h3>Partnered support</h3>
+            <p>On-call engineers who know your environment, with monthly service reviews and roadmap sessions.</p>
+            <p class="small">24/7 escalation, executive-ready reporting, service councils.</p>
+          </div>
+          <div class="card">
+            <h3>Lifecycle management</h3>
+            <p>Asset and configuration baselines, lifecycle planning, and procurement guidance to keep estates current and supported.</p>
+            <p class="small">Hardware refresh plans, config drift control, software currency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Engagement models</h2>
+        <div class="grid two">
+          <div class="card highlight">
+            <h3>Projects</h3>
+            <p>Define, design, and deliver a scoped change with full documentation and knowledge transfer to your team.</p>
+            <p class="small">Discovery, design packs, implementation, validation, handover.</p>
+          </div>
+          <div class="card highlight">
+            <h3>Ongoing partnership</h3>
+            <p>Retained architecture and operations support with quarterly councils, roadmap curation, and proactive health checks.</p>
+            <p class="small">Service reviews, risk tracking, runbook refreshes.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -110,12 +150,12 @@
   <footer class="footer">
     <div class="container foot">
       <div class="brand small">
-        <div class="logo">QW</div>
+        <img class="logo" src="logo.png" alt="Quantum Wave Technologies logo">
         <span>Quantum Wave</span>
       </div>
       <div class="nav-links">
-        <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a aria-current="page" href="services.html">Services</a>
         <a href="privacy.html">Privacy</a>
       </div>
       <span>&copy; 2025 Quantum Wave. All rights reserved.</span>
